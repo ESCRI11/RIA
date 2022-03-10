@@ -1,21 +1,24 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-Radiomics Image Analysis (RIA)
-==============================
+[![](https://cranlogs.r-pkg.org/badges/last-day/RIA?color=4B8F8C)](https://CRAN.R-project.org/package=RIA)
+[![](https://cranlogs.r-pkg.org/badges/last-week/RIA?color=E28413)](https://CRAN.R-project.org/package=RIA)
+[![](https://cranlogs.r-pkg.org/badges/last-month/RIA?color=CC76A1)](https://CRAN.R-project.org/package=RIA)
+[![](https://cranlogs.r-pkg.org/badges/grand-total/RIA?color=ABE188)](https://CRAN.R-project.org/package=RIA)
+
+# Radiomics Image Analysis (RIA)
 
 Radiomics Image Analysis (RIA) package was developed to facilitate
 radiomic analysis of medical images. `RIA` can calculate hundreds of
 different statistics on both 2D and 3D images. `RIA` supports analysis
-of `DICOM`, `NIfTI` and `nrrd` images. Almost all calculations are
-vectorized and therefore are super-efficient. The package is developed
-by Márton Kolossváry a medical doctor not an engineer, therefore all
-functionalities of the software package are developed in a way that can
-be learnt by non-professionals. `RIA` is constantly updated with new
-functionalities and wrap-around functions to make the calculation of
-radiomic metrics even simpler.
+of `DICOM`, `NIfTI`, `nrrd` and `npy` (numpy arrays save in python)
+images. Almost all calculations are vectorized and therefore are
+super-efficient. The package is developed by Márton Kolossváry a medical
+doctor not an engineer, therefore all functionalities of the software
+package are developed in a way that can be learnt by non-professionals.
+`RIA` is constantly updated with new functionalities and wrap-around
+functions to make the calculation of radiomic metrics even simpler.
 
-Its as easy as 1, 2, 3
-======================
+# Its as easy as 1, 2, 3
 
 RIA allows users to take control of each and every aspect of radiomic
 analysis using specific functions. However, for most users 3 lines of
